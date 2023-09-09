@@ -1,0 +1,4 @@
+LIBRARY	"UnlimitedJetpack"
+EXPORTS
+SFSEPlugin_Version
+SFSEPlugin_Load
