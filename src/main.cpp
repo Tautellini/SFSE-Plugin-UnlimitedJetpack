@@ -25,6 +25,7 @@ extern "C" {
 		//BYTE MovZero[] = { 0x42, 0xC7, 0x04, 0xA6, 0x00, 0x00, 0x00, 0x00, 0x90, 0x90 }; // will also make grav jump instant
 		//safeWriteBuf(boostCheckWithGravJump.getUIntPtr(), &MovZero, sizeof(MovZero)); // will also make grav jump instant
 
+		// 7FF6419FEFE5 - vmovss xmm0, [rax]
 		BYTE Nop[] = { 0x90, 0x90, 0x90, 0x90 };
 		safeWriteBuf(boostCalculation.getUIntPtr(), &Nop, sizeof(Nop));
 	}
